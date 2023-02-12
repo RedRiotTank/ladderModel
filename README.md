@@ -12,6 +12,10 @@ The positions of the comments take spectator's view as reference:
   Y axis: Up.
   Z axis: To the spectator.
 
+
+![ub-_Corriendo_-Oracle-VM-VirtualBox-2023-02-12-21-02-55-_online-video-cutter com_](https://user-images.githubusercontent.com/64831934/218337137-dc7a174e-6ab6-431b-98d1-1fab6ca50986.gif)
+
+
 ## Setting up the documentation
 #### Install Doxygen and Graphviz in Debian based systems:
 ```sh
@@ -34,9 +38,21 @@ sudo yum install graphviz
 [Doxygen official manual](https://www.doxygen.nl/manual/install.html).
 [Graphviz official manual](https://graphviz.org/download/).
 
+### Dependencies:
+```sh
+sudo apt-get install libglut3-dev
+```
+
+
 ## Compiling Documentation:
 ```sh
 doxygen Doxyfile
+```
+
+## How to execute:
+```sh
+make
+./practicasIG
 ```
 
 # About license
